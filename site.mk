@@ -14,15 +14,19 @@ GLUON_FEATURES := \
 	ebtables-limit-arp \
 	mesh-batman-adv-15 \
 	mesh-vpn-fastd \
-	mesh-wireless-sae \
 	respondd \
 	status-page \
+	web-wizard
+
+GLUON_FEATURES_standard := \
+	mesh-wireless-sae \
 	web-advanced \
 	web-logging \
 	web-mesh-vpn-fastd \
 	web-node-role \
-	web-private-wifi \
-	web-wizard
+	web-private-wifi
+
+GLUON_FEATURES_tiny := \
 
 ##	GLUON_SITE_PACKAGES
 #		Specify additional Gluon/OpenWrt packages to include here;
