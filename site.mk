@@ -32,16 +32,12 @@ GLUON_FEATURES := \
 
 GLUON_SITE_PACKAGES := iwinfo
 
-# Raspberry Pi A/B/B+
-ifeq ($(GLUON_TARGET),brcm2708-bcm2708)
-GLUON_SITE_PACKAGES += \
-	kmod-ath9k-htc
-endif
-
 # Raspberry Pi 2
-ifeq ($(GLUON_TARGET),brcm2708-bcm2709)
+ifeq ($(GLUON_TARGET),bcm27xx-bcm2709)
 GLUON_SITE_PACKAGES += \
-	kmod-ath9k-htc
+	kmod-ath9k-htc \
+	libustream-openssl \
+	ca-certificates
 endif
 
 ##	DEFAULT_GLUON_RELEASE
