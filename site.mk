@@ -12,13 +12,14 @@ GLUON_FEATURES := \
 	ebtables-filter-multicast \
 	ebtables-filter-ra-dhcp \
 	mesh-batman-adv-15 \
-	mesh-vpn-fastd \
 	mesh-wireless-sae \
 	status-page \
 	web-advanced \
 	web-wizard
 
 GLUON_FEATURES_standard := \
+	mesh-vpn-fastd \
+	web-private-wifi \
 	wireless-encryption-wpa3
 
 ##	GLUON_SITE_PACKAGES
