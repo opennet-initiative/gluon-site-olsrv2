@@ -32,7 +32,8 @@ GLUON_FEATURES_standard := \
 
 GLUON_SITE_PACKAGES := iwinfo
 
-#GLUON_SITE_PACKAGES_standard := \
+GLUON_SITE_PACKAGES_standard := \
+	libustream-wolfssl
 #	ca-bundle \
 #	libustream-wolfssl
 
