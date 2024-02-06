@@ -1,4 +1,6 @@
-packages {'iwinfo'}
+packages {'iwinfo',
+          'tcpdump'
+}
 
 features {
 	'authorized-keys',
@@ -18,7 +20,6 @@ if not device_class('tiny') then
 	features {
 		'wireless-encryption-wpa3',
 		'web-private-wifi',
-		'tls',
-		'tcpdump'
+		'tls'
 	}
 end
