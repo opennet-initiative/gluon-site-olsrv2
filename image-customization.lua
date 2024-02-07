@@ -3,6 +3,7 @@ packages {'iwinfo',
 }
 
 features {
+	'alfred',
 	'authorized-keys',
 	'autoupdater',
 	'ebtables-filter-multicast',
